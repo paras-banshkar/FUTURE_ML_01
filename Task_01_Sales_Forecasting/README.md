@@ -88,6 +88,13 @@ forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].to_csv("sales_forecast.csv"
 - This model can be extended for **weekly or monthly sales**, or include holidays/promotions.
 
 ---
+## Model Evaluation
+- Mean Absolute Error (MAE): ₹18,205.56  
+- Root Mean Squared Error (RMSE): ₹22,761.86  
+- Mean Absolute Percentage Error (MAPE): 116.42%
+The model achieved an MAE of ₹18,205.56 and an RMSE of ₹22,761.86.
+However, the MAPE of 116.42% indicates that the forecasts deviate significantly from actual sales values.
+This suggests that the Prophet model, in its current setup, may not be suitable for this dataset without further tuning or the inclusion of external features (e.g., holidays, promotions, or outlier adjustments).
 
 ## 📌 Future Improvements
 - Include external factors like promotions, holidays, or pricing changes.
