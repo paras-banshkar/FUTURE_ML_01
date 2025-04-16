@@ -66,11 +66,21 @@ Data was aggregated into daily totals before modeling.
 
 ---
 
+
+## ✅ Key Insights
+- There’s **strong seasonality** in both weekly and yearly patterns.
+- Prophet effectively captured trends and uncertainty, making it suitable for retail demand forecasting.
+- This model can be extended for **weekly or monthly sales**, or include holidays/promotions.
+
+---
+
+## 📌 Future Improvements
+- Include external factors like promotions, holidays, or pricing changes.
+- Try advanced models (e.g., XGBoost, LSTM) for comparison.
+- Deploy model into a dashboard for real-time updates.
+
+---
 ## 📤 Forecast Data Output
 Forecasted data was saved to a CSV file:
 ```python
 forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].to_csv("sales_forecast.csv", index=False)
-Date | Forecast (yhat) | Lower Bound | Upper Bound
-2005-05-10 | 42,345.12 | 25,000.00 | 61,000.00
-2005-05-11 | 41,876.88 | 23,600.00 | 59,800.00
-... | ... | ... | ...
