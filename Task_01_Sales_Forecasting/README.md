@@ -47,7 +47,7 @@ Data was aggregated into daily totals before modeling.
 
 ### 🔮 Sales Forecast Graph
 
-![Sales Forecast](images/sales_forecast_plot.png)
+![Sales Forecast](sales_forecast_plot.png)
 
 - The blue line represents predicted sales.
 - The shaded area shows the confidence interval (possible range of values).
@@ -59,7 +59,7 @@ Data was aggregated into daily totals before modeling.
 ### 📅 Seasonal Decomposition
 
 ## 📈 Forecast Plot
-![Seasonality](images/seasonality_components.png)
+![Seasonality](seasonality_components.png)
 
 ## 🔄 Seasonality Components
 
