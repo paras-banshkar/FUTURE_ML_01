@@ -59,11 +59,9 @@ Data was aggregated into daily totals before modeling.
 ### 📅 Seasonal Decomposition
 
 ## 📈 Forecast Plot
-![Sales Forecast](images/sales_forecast_plot.png)
-
-## 🔄 Seasonality Components
 ![Seasonality](images/seasonality_components.png)
 
+## 🔄 Seasonality Components
 
 - **Trend:** Slight overall growth over time.
 - **Weekly Seasonality:** Higher sales on **Sundays and Thursdays**, lowest on **Saturdays**.
