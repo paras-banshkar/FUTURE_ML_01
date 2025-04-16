@@ -47,7 +47,7 @@ Data was aggregated into daily totals before modeling.
 
 ### 🔮 Sales Forecast Graph
 
-![Sales Forecast](./download%20(4).png)
+![Sales Forecast](images/sales_forecast_plot.png)
 
 - The blue line represents predicted sales.
 - The shaded area shows the confidence interval (possible range of values).
@@ -58,7 +58,12 @@ Data was aggregated into daily totals before modeling.
 
 ### 📅 Seasonal Decomposition
 
-![Trend and Seasonality](./download%20(5).png)
+## 📈 Forecast Plot
+![Sales Forecast](images/sales_forecast_plot.png)
+
+## 🔄 Seasonality Components
+![Seasonality](images/seasonality_components.png)
+
 
 - **Trend:** Slight overall growth over time.
 - **Weekly Seasonality:** Higher sales on **Sundays and Thursdays**, lowest on **Saturdays**.
